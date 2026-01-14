@@ -1,12 +1,12 @@
 # Async Event
 
 - Events will be placed into a coroutine and then executed in sequence  
-- Core code is `\Delightful\AsyncEvent\AsyncEventDispatcher::dispatch`
+- Core code is `\BeDelightful\AsyncEvent\AsyncEventDispatcher::dispatch`
 
 ## Installation
 - Install
 ```
-composer require delightful/async-event
+composer require bedelightful/async-event
 ```
 - Publish configuration
 ```
@@ -34,7 +34,7 @@ namespace App\Controller;
 
 use App\Event\DemoEvent;
 use Hyperf\Di\Annotation\Inject;
-use Delightful\AsyncEvent\AsyncEventDispatcher;
+use BeDelightful\AsyncEvent\AsyncEventDispatcher;
 
 class IndexController extends AbstractController
 {
