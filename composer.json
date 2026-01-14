@@ -1,12 +1,12 @@
 {
   "name": "bedelightful/async-event",
   "type": "library",
-  "license": "Apache License 2.0",
+  "license": "Apache-2.0",
   "keywords": [
     "php",
     "hyperf"
   ],
-  "description": "",
+  "description": "Async event",
   "autoload": {
     "psr-4": {
       "BeDelightful\\AsyncEvent\\": "src/"
@@ -20,11 +20,11 @@
   "require": {
     "php": ">=7.4",
     "ext-json": "*",
-    "hyperf/db-connection": "*",
-    "hyperf/di": "*",
+    "hyperf/db-connection": "^3.1.63",
+    "hyperf/di": "3.1.65",
     "hyperf/event": "*",
     "hyperf/framework": "*",
-    "hyperf/logger": "*",
+    "hyperf/logger": "^3.1.63",
     "hyperf/crontab": "*",
     "hyperf/config": "*",
     "hyperf/redis": "*",
