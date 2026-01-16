@@ -1,12 +1,12 @@
 {
   "name": "bedelightful/async-event",
   "type": "library",
-  "license": "Apache-2.0",
+  "license": "Apache License 2.0",
   "keywords": [
     "php",
     "hyperf"
   ],
-  "description": "Async event",
+  "description": "",
   "autoload": {
     "psr-4": {
       "Delightful\\AsyncEvent\\": "src/"
